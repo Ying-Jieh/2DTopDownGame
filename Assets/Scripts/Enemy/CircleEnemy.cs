@@ -74,7 +74,7 @@ public class CircleEnemy : GameActor, IEnemy
 
     private void TurnToPlayer()
     { 
-        Vector2 lookDir = (Vector2)player.transform.position - body.position;
+        Vector2 lookDir = player.transform.position - transform.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
         body.rotation = angle;
 	}

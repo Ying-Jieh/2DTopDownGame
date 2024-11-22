@@ -39,6 +39,7 @@ public class LaserEnemy: GameActor, IEnemy
     public override void Attack()
     {
         // Debug.Log(EnemyName + "::Attack()");
+        // TODO: change to laser attack
         PooledObject aBullet = bulletRedPool.GetPooledObject();
         aBullet.transform.position = firePoint.position;
         aBullet.transform.rotation = firePoint.rotation;

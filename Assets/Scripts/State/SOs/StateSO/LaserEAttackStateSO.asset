@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e1faeab47fc042679c297333f502840, type: 3}
   m_Name: LaserEAttackStateSO
   m_EditorClassIdentifier: 
-  actions: []
-  transitions: []
-  gizmoColor: {r: 0, g: 0, b: 0, a: 0}
+  actions:
+  - {fileID: 11400000, guid: 028aef21dde984f448af4743adced501, type: 2}
+  - {fileID: 11400000, guid: 19fad1745556241309cb14761db2b201, type: 2}
+  - {fileID: 11400000, guid: a38b38e16200f44c98f0b8139681c9c7, type: 2}
+  transitions:
+  - {fileID: 11400000, guid: b3774e10f9aa54f2286cc261977eaf19, type: 2}
+  gizmoColor: {r: 0.9150943, g: 0.17697577, b: 0.17697577, a: 0.98039216}

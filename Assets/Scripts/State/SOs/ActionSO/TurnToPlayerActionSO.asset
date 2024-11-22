@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f1374a338f8042adbb854de0534a0fd, type: 3}
   m_Name: TurnToPlayerActionSO
   m_EditorClassIdentifier: 
-  actionName: 
+  actionName: TurnToPlayer
